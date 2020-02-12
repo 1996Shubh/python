@@ -22,6 +22,7 @@ def prime_in_range(start,end):
                 break
         if(temp==0):
             prime_numbers.append(number)
-    print(f"prime numbers in range of {start}-{end} = {prime_numbers}")
+    return prime_numbers
 
-prime_in_range(starting_range,end_range)
+primes=prime_in_range(starting_range,end_range)
+print(f"prime numbers in range of {starting_range}-{end_range} = {primes}")
